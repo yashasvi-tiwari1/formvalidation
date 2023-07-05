@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: lightgray;
+  font-family: "Inter", sans-serif;
+}
+
+.fifth {
+  /*border: 1px outset cadetblue;*/
+  width: 100%;
+  height: 5px;
+  /*margin-left: 150px;*/
+  background-color: chocolate;
+}
+
+.heading {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.signup {
+  width: 750px;
+  height: 500px;
+  font-family: "ui-sans-serif";
+  background:#1F8FC9;
+  margin: 60px auto;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  /*margin-left: 24px;*/
+}
+
+.inputs {
+  /*border: 0.5px outset cadetblue;*/
+  width: 100%;
+  height: 405px;
+  /*margin-left: 170px;*/
+  /*margin-top: 100px;*/
+  /*text-align: center;*/
+  background: whitesmoke;
+}
+
+.main {
+  /*border: 0.5px outset cadetblue;*/
+  width: fit-content;
+  height: fit-content;
+  margin-left: 45px;
+  padding-top: 20px;
+  font-family: "ui-sans-serif";
+  /*text-align: center;*/
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+  /*margin-right: 300px;*/
+}
+
+input[type="text"],
+select {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: medium;
+}
+
+input[type="password"],
+select {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: medium;
+}
+
+.signupbtn {
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: #1F8FC9;
+  font-size: medium;
+  color: white;
+  padding: 8px 16px;
+  border-bottom-width: 2px;
+  margin-top: 20px;
+}
+
+.signupbtn:hover {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+
+.firstrowlabel {
+  display: flex;
+  gap: 237px;
+}
+.firstrowinputs {
+  display: flex;
+  gap: 20px;
+}
+.secondrowlabel {
+  display: flex;
+  gap: 237px;
+}
+.secondrowinputs {
+  display: flex;
+  gap: 20px;
+}
+.thirdrowlabel {
+  display: flex;
+  gap: 255px;
+}
+.thirdrowinputs {
+  display: flex;
+  gap: 20px;
+}
