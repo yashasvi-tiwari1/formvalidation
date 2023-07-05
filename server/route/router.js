@@ -27,7 +27,10 @@ router.post("/", async (req, res) => {
                 if (password.length > 7) {
                     if (password.match(/([0-9,A-Z])/g)) {
                         try {
-                            await newdata.save();
+                            console.log('asljdlasjdklasjdlkasj ayo hai')
+
+                            // await newdata.save();
+
                             res.status(201).send({ data: "user created successfully" });
                         } catch (err) {
                             res.send(err);
